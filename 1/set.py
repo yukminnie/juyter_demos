@@ -1,6 +1,7 @@
 # range(10) == range(1,11)
 # 集合可以去除相同元素
 # 集合可以用生成式， 或者set(list)方法生成
+# python 2 vs python 3  xrange:range iteritems:items
 from random import randint
 
 data_a = [randint(-10,10) for _ in range(1,11)]
